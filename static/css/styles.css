@@ -1,0 +1,74 @@
+/* Основные стили страницы */
+body {
+    background-color: #ecf0f1; /* Серый фон */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #3498db; /* Синий цвет для контейнера формы */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+}
+h1 {
+    text-align: center; /* Выравнивание текста по центру */
+    color: #fff; /* Синий цвет текста */
+    font-size: 24px; /* Размер шрифта */
+    margin-bottom: 20px; /* Отступ снизу */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+}
+form {
+    background-color: #fff; /* Белый фон для формы */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+    padding: 15px;
+}
+
+form input[type="text"] {
+    background-color: #f2f2f2; /* Светло-серый фон */
+    border: 1px solid #3498db; /* Синяя рамка */
+    border-radius: 20px; /* Закругленные углы */
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+input.form-control {
+    background-color: #ecf0f1; /* Светло-серый фон */
+    border: none; /* Убираем рамку */
+    border-radius: 10px; /* Закругленные углы */
+    width: 100%; /* Полное заполнение контейнера */
+    margin: 10px 0; /* Верхний и нижний отступ для полей */
+    box-shadow: none;
+    font-size: 16px;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.btn {
+    background-color: #3498db; /* Синий цвет для кнопки */
+    color: #fff; /* Белый текст на кнопке */
+    border: none;
+    padding: 15px 40px; /* Увеличьте размер кнопки */
+    border-radius: 10px; /* Закругленные углы */
+    cursor: pointer;
+    display: block; /* Чтобы кнопка занимала всю ширину формы */
+    margin: 0; /* Выравнивание по центру */
+}
+
+.flash-message {
+    background-color: #f2dede; /* Цвет фона для сообщений flash */
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Стили для кнопки "Закрыть" сообщения flash */
+.close-button {
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}

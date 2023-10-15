@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Прогнозирование ширины и глубины сварного соединения</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Прогнозирование ширины и глубины сварного соединения</h1>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="input-group">
+                {{ form.IW.label }} {{ form.IW(size=4, id='IW', class='form-control') }}
+            </div>
+            <div class="input-group">
+                {{ form.IF.label }} {{ form.IF(size=4, id='IF', class='form-control') }}
+            </div>
+            <div class="input-group">
+                {{ form.VW.label }} {{ form.VW(size=4, id='VW', class='form-control') }}
+            </div>
+            <div class="input-group">
+                {{ form.FP.label }} {{ form.FP(size=4, id='FP', class='form-control') }}
+            </div>
+            <div class="text-center">
+                {{ form.submit(class='btn btn-primary') }}
+            </div>
+        </form>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="flash-message">
+                    <span id="close-button" class="close-button" onclick="closeFlashMessage()">&times;</span>
+                    {% for category, message in messages %}
+                        {{ message }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
