@@ -7,12 +7,13 @@
 После запуска приложения и при переходе на http://localhost:5043/:
 <img width="1230" alt="Снимок экрана 2023-10-15 в 16 33 34" src="https://github.com/KristinaPyzhenkova/weld_prediction/assets/96332651/448c3e7a-42e7-42ba-94e7-d8e711e15db2">
 
-Неоьходимо заполнить все поля:
+Необходимо заполнить все поля:
 <img width="1167" alt="Снимок экрана 2023-10-15 в 16 34 12" src="https://github.com/KristinaPyzhenkova/weld_prediction/assets/96332651/d84e20e3-8647-418f-b08d-108f89b74ed0">
 
 Пример предсказаний:
 <img width="1232" alt="Снимок экрана 2023-10-15 в 18 02 10" src="https://github.com/KristinaPyzhenkova/weld_prediction/assets/96332651/0334b90e-d466-4cd2-8f20-86a6e3df82df">
 
+<img width="1312" alt="Снимок экрана 2023-10-15 в 18 01 31" src="https://github.com/KristinaPyzhenkova/weld_prediction/assets/96332651/72f6bc63-a8ca-4c97-8588-5cfdb936b28f">
 
 
 
